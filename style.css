@@ -1,0 +1,28 @@
+:root {
+    --navbar-color: #fff;
+    --text-color: #000;
+    --bg-color: rgb(255, 255, 255);
+}
+
+*{
+    transition: background-color 0.4s ease, color 0.3s ease;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.navbar{
+    background-color: var(--navbar-color);
+}
+
+.logo {
+    color: var(--text-color);
+}
+
+
+.dark-mode {
+    --navbar-color: #15202b;
+    --text-color: #999;
+    --bg-color: #212e3a;
+}
